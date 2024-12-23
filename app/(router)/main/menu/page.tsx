@@ -13,7 +13,7 @@ export default function Page() {
         className="absolute left-[14px] top-[20px] cursor-pointer"
         onClick={() => router.back()}
       />
-      <div className="mt-[184px] flex flex-col items-center gap-[21px]">
+      <div className="my-[184px] flex flex-col items-center gap-[21px]">
         <Link
           href={PATH.MENU}
           className="rounded-[40px] bg-[#333333] px-[35px] py-[13px] text-[2.813rem] font-bold leading-[3.375rem] text-white"

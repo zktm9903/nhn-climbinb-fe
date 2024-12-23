@@ -34,7 +34,7 @@ export default function page() {
       </p>
       <Link
         href={PATH.MENU}
-        className="fixed bottom-[173px] rounded-[40px] bg-[#333333] px-[65px] py-[13px] text-[2.813rem] font-bold leading-[3.375rem] text-white"
+        className="mb-[173px] mt-[78px] rounded-[40px] bg-[#333333] px-[65px] py-[13px] text-[2.813rem] font-bold leading-[3.375rem] text-white"
       >
         GO!
       </Link>
