@@ -32,7 +32,11 @@ export default async function Page(props: {
           <Link
             key={idx}
             href={`${PATH.TEAM}?id=${idx + 1}`}
-            className={`flex aspect-square w-[51px] items-center justify-center rounded-full border-[1px] border-[#F7C3CB] bg-[#F7C3CB] text-[1.875rem] font-bold text-white ${idx + 1 === Number(id) && "bg-white text-[#F7C3CB]"}`}
+            className={`flex aspect-square w-[51px] items-center justify-center rounded-full border-[1px] border-[#F7C3CB] text-[1.875rem] font-bold`}
+            style={{
+              color: idx + 1 === Number(id) ? "#F7C3CB" : "white",
+              backgroundColor: idx + 1 === Number(id) ? "white" : "#F7C3CB",
+            }}
           >
             {idx + 1}
           </Link>
