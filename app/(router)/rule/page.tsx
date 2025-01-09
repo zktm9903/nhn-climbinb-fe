@@ -1,10 +1,10 @@
-import GoHomeArrow from "@/app/components/GoHomeArrow";
+import GoBackArrow from "@/app/components/GoBackArrow";
 import Title from "@/app/components/Title";
 
 export default function Page() {
   return (
     <main className="relative flex flex-col items-center">
-      <GoHomeArrow />
+      <GoBackArrow />
       <Title title="RULE" color="#333333" />
       <table className="w-[calc(100%-54px)] border-[2px] border-[#333333] bg-white">
         <thead>

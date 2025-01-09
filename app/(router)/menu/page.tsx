@@ -1,11 +1,11 @@
-import GoHomeArrow from "@/app/components/GoHomeArrow";
+import GoBackArrow from "@/app/components/GoBackArrow";
 import { PATH } from "@/app/const/path";
 import Link from "next/link";
 
 export default function Page() {
   return (
     <main className="relative flex flex-col items-center">
-      <GoHomeArrow />
+      <GoBackArrow />
       <div className="my-[184px] flex flex-col items-center gap-[21px]">
         <Link
           href={PATH.RULE}
@@ -26,7 +26,7 @@ export default function Page() {
           TEAM
         </Link>
         <Link
-          href={PATH.MENU}
+          href={PATH.SCORE}
           className="rounded-[40px] bg-[#F7C3CB] px-[35px] py-[13px] text-[2.813rem] font-bold leading-[3.375rem] text-white"
         >
           SCORE

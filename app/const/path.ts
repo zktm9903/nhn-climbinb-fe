@@ -4,4 +4,5 @@ export const PATH = {
   RULE: "/rule",
   TIME_TABLE: "/time-table",
   TEAM: "/team",
+  SCORE: "/score",
 };

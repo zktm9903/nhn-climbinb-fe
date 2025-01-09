@@ -3,7 +3,7 @@
 import { useRouter } from "next/navigation";
 import { LeftArrow } from "../shared/svgs";
 
-export default function GoHomeArrow() {
+export default function GoBackArrow() {
   const router = useRouter();
   return (
     <button onClick={() => router.back()}>

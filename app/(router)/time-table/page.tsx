@@ -1,6 +1,6 @@
 "use client";
 
-import GoHomeArrow from "@/app/components/GoHomeArrow";
+import GoBackArrow from "@/app/components/GoBackArrow";
 import Title from "@/app/components/Title";
 import { BottomArrow } from "@/app/shared/svgs";
 import { ReactNode, useState } from "react";
@@ -11,7 +11,7 @@ export default function Page() {
 
   return (
     <main className="relative flex flex-col items-center">
-      <GoHomeArrow />
+      <GoBackArrow />
       <Title title="TIME TABLE" color="#557961" />
       <div className="flex w-[calc(100%-54px)] flex-col gap-[21px]">
         <Button>{<>19:30-19:45&nbsp;&nbsp;&nbsp;입장 및 스트레칭</>}</Button>

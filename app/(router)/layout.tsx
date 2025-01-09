@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import "../globals.css";
-
 import localFont from "next/font/local";
 import GoHomeButton from "../components/GoHomeButton";
+import { Suspense } from "react";
 
 const pretendard = localFont({
   src: "../fonts/PretendardVariable.woff2",
@@ -13,7 +13,7 @@ const pretendard = localFont({
 
 export const metadata: Metadata = {
   title: "NHN MOVE | 서울숲 잠실 대회",
-  description: "드궤자~",
+  description: "상밑지",
 };
 
 export default function RootLayout({
@@ -26,7 +26,7 @@ export default function RootLayout({
       <body className={`${pretendard.variable} bg-[#F8F5EF] font-pretendard`}>
         <div className="flex h-screen min-h-[852px] w-screen justify-center">
           <div className="relative h-full w-full max-w-[450px]">
-            {children}
+            <Suspense>{children}</Suspense>
             <GoHomeButton />
           </div>
         </div>
