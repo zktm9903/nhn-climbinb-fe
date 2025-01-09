@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "../globals.css";
 
 import localFont from "next/font/local";
+import GoHomeButton from "../components/GoHomeButton";
 
 const pretendard = localFont({
   src: "../fonts/PretendardVariable.woff2",
@@ -22,8 +23,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ko">
-      <body className={`${pretendard.variable} font-pretendard bg-[#F8F5EF]`}>
-        {children}
+      <body className={`${pretendard.variable} bg-[#F8F5EF] font-pretendard`}>
+        <div className="flex h-screen min-h-[852px] w-screen justify-center">
+          <div className="relative h-full w-full max-w-[450px]">
+            {children}
+            <GoHomeButton />
+          </div>
+        </div>
       </body>
     </html>
   );

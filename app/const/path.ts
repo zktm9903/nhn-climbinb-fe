@@ -1,4 +1,7 @@
 export const PATH = {
-  MAIN: "/main",
-  MENU: "/main/menu",
+  HOME: "/",
+  MENU: "/menu",
+  RULE: "/rule",
+  TIME_TABLE: "/time-table",
+  TEAM: "/team",
 };
