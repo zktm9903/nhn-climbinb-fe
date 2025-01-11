@@ -81,13 +81,9 @@ export default function Page() {
         setLuckyForest([randomBoy, randomGirl]);
       }
     } else if (type === "etc") {
-      if (luckyEtc.length === 1) {
-        alert("이미 추첨되었습니다.");
-        return;
-      }
       if (candidate.length) {
         const random = candidate[Math.floor(Math.random() * candidate.length)];
-        setLuckyEtc([random]);
+        setLuckyEtc([...luckyEtc, random]);
       }
     }
   };
@@ -109,11 +105,11 @@ export default function Page() {
           <col style={{ width: "70%" }} />
         </colgroup>
         <thead
-          className="relative bg-[#FFC728] text-white"
+          className="bg-[#FFC728] text-white"
           onClick={() => setIsOpen((e) => !e)}
         >
           <tr>
-            <td colSpan={2} className="py-[16px]">
+            <td colSpan={2} className="relative py-[16px]">
               {type === "rank" && "등수 별 수상"}
               {type === "forest" && "서울숲 티셔츠"}
               {type === "etc" && "소소한 경품"}

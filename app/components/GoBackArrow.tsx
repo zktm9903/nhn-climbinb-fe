@@ -10,9 +10,13 @@ export default function GoBackArrow() {
 
   return (
     <button
-      onClick={() =>
-        router.push(pathname === PATH.MENU ? PATH.HOME : PATH.MENU)
-      }
+      onClick={() => {
+        if (pathname === PATH.SCORE) {
+          router.back();
+          return;
+        }
+        router.push(pathname === PATH.MENU ? PATH.HOME : PATH.MENU);
+      }}
     >
       <LeftArrow className="absolute left-[14px] top-[20px] cursor-pointer" />
     </button>

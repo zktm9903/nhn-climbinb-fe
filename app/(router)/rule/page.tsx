@@ -28,9 +28,9 @@ export default function Page() {
                     <p>남색:500</p>
                   </div>
                   <div className="flex flex-col">
-                    <p>초록:100</p>
-                    <p>파랑:300</p>
-                    <p>남색:500</p>
+                    <p>보라:700</p>
+                    <p>갈색:900</p>
+                    <p>검정:1100</p>
                   </div>
                 </div>
               </div>

@@ -124,7 +124,7 @@ export default function EditScore() {
                   key={member.name + idx}
                   href={`${PATH.SCORE}?edit=true&member=${member.name}`}
                 >
-                  <button className="w-full px-[40px] py-[16px] text-left hover:bg-[#F4F4F4]">
+                  <button className="w-full px-[40px] py-[16px] text-left">
                     {member.name}
                   </button>
                 </Link>

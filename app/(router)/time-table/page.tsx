@@ -83,7 +83,7 @@ function Bouldering() {
           <td className="border-[2px] border-[#557961] text-[#8B1CE0]">5조</td>
         </tr>
         <tr>
-          <td className="border-[2px] border-[#557961] font-medium">20:00</td>
+          <td className="border-[2px] border-[#557961] font-medium">20:25</td>
           <td className="border-[2px] border-[#557961] text-[#FFC300]">2조</td>
           <td className="border-[2px] border-[#557961] text-[#11C011]">3조</td>
           <td className="border-[2px] border-[#557961] text-[#0800FF]">4조</td>
@@ -91,7 +91,7 @@ function Bouldering() {
           <td className="border-[2px] border-[#557961] text-[#FF0000]">1조</td>
         </tr>
         <tr>
-          <td className="border-[2px] border-[#557961] font-medium">20:00</td>
+          <td className="border-[2px] border-[#557961] font-medium">20:50</td>
           <td className="border-[2px] border-[#557961] text-[#11C011]">3조</td>
           <td className="border-[2px] border-[#557961] text-[#0800FF]">4조</td>
           <td className="border-[2px] border-[#557961] text-[#8B1CE0]">5조</td>
@@ -99,7 +99,7 @@ function Bouldering() {
           <td className="border-[2px] border-[#557961] text-[#FFC300]">2조</td>
         </tr>
         <tr>
-          <td className="border-[2px] border-[#557961] font-medium">20:00</td>
+          <td className="border-[2px] border-[#557961] font-medium">21:15</td>
           <td className="border-[2px] border-[#557961] text-[#0800FF]">4조</td>
           <td className="border-[2px] border-[#557961] text-[#8B1CE0]">5조</td>
           <td className="border-[2px] border-[#557961] text-[#FF0000]">1조</td>
@@ -107,7 +107,7 @@ function Bouldering() {
           <td className="border-[2px] border-[#557961] text-[#11C011]">3조</td>
         </tr>
         <tr>
-          <td className="border-[2px] border-[#557961] font-medium">20:00</td>
+          <td className="border-[2px] border-[#557961] font-medium">21:40</td>
           <td className="border-[2px] border-[#557961] text-[#8B1CE0]">5조</td>
           <td className="border-[2px] border-[#557961] text-[#FF0000]">1조</td>
           <td className="border-[2px] border-[#557961] text-[#FFC300]">2조</td>
