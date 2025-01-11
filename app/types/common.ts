@@ -8,8 +8,17 @@ export type Member = {
   name: string;
   organization: string;
   level: string;
+  gender: "BOY" | "GIRL";
   leaderFlag: boolean;
-  scores: unknown;
+  scores: {
+    GREEN?: number;
+    BLUE?: number;
+    NAVY?: number;
+    PURPLE?: number;
+    BROWN?: number;
+    BLACK?: number;
+  };
+  totalScore: number;
 };
 
 export type CommonApiResponse = {

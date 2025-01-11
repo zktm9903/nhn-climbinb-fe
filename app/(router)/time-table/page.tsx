@@ -10,7 +10,7 @@ export default function Page() {
   const [isOpenMiniGame, setIsOpenMiniGame] = useState(false);
 
   return (
-    <main className="relative flex flex-col items-center">
+    <main className="relative mb-[150px] flex flex-col items-center">
       <GoBackArrow />
       <Title title="TIME TABLE" color="#557961" />
       <div className="flex w-[calc(100%-54px)] flex-col gap-[21px]">

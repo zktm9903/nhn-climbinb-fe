@@ -1,4 +1,4 @@
-import { getTeams } from "@/app/apis/team";
+import { getTeams } from "@/app/apis/all";
 import GoBackArrow from "@/app/components/GoBackArrow";
 import Title from "@/app/components/Title";
 import { PATH } from "@/app/const/path";
@@ -23,7 +23,7 @@ export default async function Page(props: {
     }));
 
   return (
-    <main className="relative flex flex-col items-center">
+    <main className="relative mb-[150px] flex flex-col items-center">
       <GoBackArrow />
       <Title title="TEAM" color="#F7C3CB" />
 

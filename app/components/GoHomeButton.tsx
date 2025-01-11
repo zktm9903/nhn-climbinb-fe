@@ -12,7 +12,7 @@ export default function GoHomeButton() {
   return (
     <Link
       href={PATH.HOME}
-      className="absolute bottom-[32px] left-1/2 flex aspect-square h-auto w-[50px] -translate-x-1/2 items-center justify-center rounded-[50%] bg-white"
+      className="fixed bottom-[32px] left-1/2 flex aspect-square h-auto w-[50px] -translate-x-1/2 items-center justify-center rounded-[50%] bg-white"
     >
       <House />
     </Link>

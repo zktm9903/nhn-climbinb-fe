@@ -20,19 +20,19 @@ export default function Page() {
           TIME TABLE
         </Link>
         <Link
-          href={PATH.TEAM}
+          href={`${PATH.TEAM}?id=1`}
           className="rounded-[40px] bg-[#F35D4D] px-[35px] py-[13px] text-[2.813rem] font-bold leading-[3.375rem] text-white"
         >
           TEAM
         </Link>
         <Link
-          href={PATH.SCORE}
+          href={`${PATH.SCORE}?type=team`}
           className="rounded-[40px] bg-[#F7C3CB] px-[35px] py-[13px] text-[2.813rem] font-bold leading-[3.375rem] text-white"
         >
           SCORE
         </Link>
         <Link
-          href={PATH.MENU}
+          href={`${PATH.LUCKY_DRAW}?type=rank`}
           className="rounded-[40px] bg-[#FFC728] px-[35px] py-[13px] text-[2.813rem] font-bold leading-[3.375rem] text-white"
         >
           LUCKY DRAW
