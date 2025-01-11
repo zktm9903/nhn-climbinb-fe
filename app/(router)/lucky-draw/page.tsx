@@ -72,10 +72,13 @@ export default function Page() {
         return;
       }
       if (candidate.length) {
-        setLuckyForest([
-          candidate.filter((e) => e.gender === "BOY")[0],
-          candidate.filter((e) => e.gender === "GIRL")[0],
-        ]);
+        const boys = candidate.filter((e) => e.gender === "BOY");
+        const girls = candidate.filter((e) => e.gender === "GIRL");
+
+        const randomBoy = boys[Math.floor(Math.random() * boys.length)];
+        const randomGirl = girls[Math.floor(Math.random() * girls.length)];
+
+        setLuckyForest([randomBoy, randomGirl]);
       }
     } else if (type === "etc") {
       if (luckyEtc.length === 1) {
@@ -83,7 +86,8 @@ export default function Page() {
         return;
       }
       if (candidate.length) {
-        setLuckyEtc([candidate[0]]);
+        const random = candidate[Math.floor(Math.random() * candidate.length)];
+        setLuckyEtc([random]);
       }
     }
   };

@@ -14,7 +14,7 @@ const pretendard = localFont({
 
 export const metadata: Metadata = {
   title: "NHN MOVE | 서울숲 잠실 대회",
-  description: "상밑지",
+  description: "made by nhn move",
 };
 
 export default function RootLayout({

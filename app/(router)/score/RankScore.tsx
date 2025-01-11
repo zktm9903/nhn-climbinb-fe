@@ -36,11 +36,11 @@ export default function RankScore() {
         <col style={{ width: "40%" }} />
         <col style={{ width: "40%" }} />
       </colgroup>
-      <thead className="relative bg-[#F35D4D] text-white">
+      <thead className="bg-[#F35D4D] text-white">
         <tr>
           <td
             colSpan={3}
-            className="py-[16px]"
+            className="relative py-[16px]"
             onClick={() => setIsOpen(!isOpen)}
           >
             {isTeam ? "조별 등수" : "개인 등수"}
